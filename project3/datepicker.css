@@ -1,0 +1,45 @@
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #f0f0f0;
+}
+
+.calendar-header .month-year {
+    font-weight: bold;
+}
+
+.month-nav {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar-table th {
+    background-color: #e9e9e9;
+}
+
+.calendar-table td {
+    width: 14.28%;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.calendar-table td.dimmed {
+    color: #cccccc;
+}
+
+.calendar-table td.today {
+    background-color: #e0ffff;
+}
+
+/* Add any additional styling as desired */
